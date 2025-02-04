@@ -1,10 +1,11 @@
 // Destructuring an Array
 let names = ["Adebayor", "Olubisi", "Ogunbiyi"]
 
-let [firstName, middleName] = names
+let [firstName, middleName,lastName] = names
 
 console.log(firstName);
 console.log(middleName);
+console.log(lastName);
 
 // Get the first name
 let [name1] = names
@@ -44,14 +45,16 @@ console.log(restOfSettings) // { fontSize: 20, fullScreen: true }
 
 
 // Destructuring in a function
-function getUserInfo({ name, age }) {
+function getUserInfo({ name, age, club }) {
     console.log("My name is:", name)
     console.log("My age is:" , age)
+    console.log("My club is:" , club)
 }
 
 const user = {
     name: "John",
-    age: 23
+    age: 23,
+    club: "Chelsea"
 }
 
 getUserInfo(user) // John 23

@@ -1,11 +1,14 @@
 let setOfUsers = new Set()
 
 let mary = {name : "Mary", age: 20}
-let John = {name : "John", age: 23}
+let John = {name : "John", age: 23} //Object
 
 setOfUsers.add(mary)
 setOfUsers.add(John)
-setOfUsers.add(mary) //Won't get added again
+setOfUsers.add(20)
+setOfUsers.add("Tayo")
+setOfUsers.add([20,40])
+// setOfUsers.add(mary) //Won't get added again
 
 console.log(setOfUsers)
 

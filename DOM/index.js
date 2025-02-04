@@ -2,10 +2,14 @@
 // alert(document.title);
 
 // Display the content of the head tag
-// alert(document.head.innerHTML);
+// console.log(document.head);
+
+// setTimeout(() => {
+//     document.body.style.backgroundColor = "blue"
+// }, 3000)
 
 // Display the content of the body tag
-// alert(document.body.innerHTML);
+console.log(document.body);
 
 
 //Task ==> Interact with DOM elements using the Developer Tools
