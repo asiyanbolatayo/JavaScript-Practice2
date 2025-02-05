@@ -1,6 +1,6 @@
 // Capturing Mouse Events
 
-// const button = document.querySelector('#submit-btn');
+const button = document.querySelector('#submit-btn');
 
 // Mouse Enter Event
 // button.addEventListener('mouseenter', () => {
@@ -36,8 +36,8 @@
 //     console.log("You pressed a key: " + e.key);
 // })
 
-// // Combining Key Events
-// // On ALT + S, alert "You pressed the ALT + S key combo!"
+// Combining Key Events
+// On ALT + S, alert "You pressed the ALT + S key combo!"
 // document.body.addEventListener('keydown', (e) => {
 //     if (e.altKey && e.key === 'S') {
 //         alert("You pressed the ALT + S key combo!");
@@ -45,9 +45,9 @@
 // })
 
 
-// // Extra fancy event feature
-// // Prevent user from copying text in your webpage
-// document.body.addEventListener('copy', (e) => {
-//     e.preventDefault();
-//     alert("You can't copy text!");
-// })
+// Extra fancy event feature
+// Prevent user from copying text in your webpage
+document.body.addEventListener('copy', (e) => {
+    e.preventDefault();
+    alert("You can't copy text!");
+})
